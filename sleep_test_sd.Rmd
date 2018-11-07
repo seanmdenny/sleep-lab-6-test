@@ -1,0 +1,21 @@
+---
+title: "lab_6_sleep_sd"
+author: "Sean Denny"
+date: "11/7/2018"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+What animals are on this thing? Check out the data.
+
+```{r, message = FALSE}
+library(tidyverse)
+sleep <- read_csv("sleep.csv")
+#sleep
+
+#so many good ones
+```
+
